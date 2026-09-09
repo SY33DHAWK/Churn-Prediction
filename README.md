@@ -161,7 +161,7 @@ Based on the model's predictions and feature importance analysis:
 
 ### 1. Clone the Repository
 ```bash
-https://github.com/SY33DHAWK/Churn-Prediction.git
+git clone https://github.com/SY33DHAWK/Churn-Prediction.git
 cd Churn-Prediction
 ```
 
