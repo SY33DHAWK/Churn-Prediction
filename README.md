@@ -173,7 +173,7 @@ conda activate datascience
 
 ### 3. Install Dependencies
 ```bash
-pip install pandas numpy scipy scikit-learn xgboost matplotlib seaborn jupyterlab
+pip install -r requirements.txt
 ```
 
 ### 4. Launch Jupyter Lab
