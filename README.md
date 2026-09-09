@@ -32,7 +32,7 @@ In the telecommunications industry, acquiring a new customer is significantly mo
 
 ### Churn Distribution
 
-![Churn Distribution](images/F:/Churn-Prediction/output.ong)
+![Churn Distribution](images/F:/Churn-Prediction/output.png)
 
 The dataset shows a class imbalance with **73.5% of customers staying** and **26.5% churning**. This imbalance is common in churn prediction scenarios and requires careful handling during model training.
 
