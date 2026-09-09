@@ -147,10 +147,10 @@ Based on the model's predictions and feature importance analysis:
 │   └── 01_EDA_and_Preprocessing.ipynb # Main analysis notebook
 │
 ├── images/
-│   ├── churn_distribution.png         # Churn distribution charts
-│   ├── feature_importance.png         # Top 10 features chart
-│   ├── xgboost_confusion_matrix.png   # XGBoost confusion matrix
-│   └── logistic_regression_confusion_matrix.png  # LR confusion matrix
+│   ├── output.png         # Churn distribution charts
+│   ├── output3.png         # Top 10 features chart
+│   ├── output2.png   # XGBoost confusion matrix
+│   └── output1.png  # LR confusion matrix
 │
 ├── README.md                          # You are here!
 │
@@ -186,7 +186,7 @@ Navigate to `notebooks/01_EDA_and_Preprocessing.ipynb` and run all cells.
 
 ##  Requirements
 
-- Python 3.12+
+- Python 3.13+
 - pandas
 - numpy
 - scikit-learn
@@ -229,45 +229,5 @@ This project is for educational and portfolio purposes.
 
 ##  Author
 
-**[Your Name]**  
+**[Sheikh Syeed Ul Haque]**  
 Data Scientist | Machine Learning Engineer
-
----
-
-*Built with ❤️ using Python, Scikit-Learn, and XGBoost*
-```
-
----
-
-##  Image Files You Need to Create
-
-Save your generated images in an `images/` folder with these exact names:
-
-1. **`churn_distribution.png`** - Your pie chart and bar chart showing 26.5% churn rate
-2. **`feature_importance.png`** - The bar chart showing Top 10 Features (Contract_Two year, Contract_One year, InternetService_Fiber optic, etc.)
-3. **`xgboost_confusion_matrix.png`** - The confusion matrix showing 770, 265, 85, 289
-4. **`logistic_regression_confusion_matrix.png`** - The confusion matrix showing 934, 101, 181, 193
-
----
-
-## ✅ Final Checklist
-
-Before pushing to GitHub:
-
-- [ ] Create `images/` folder and add all 4 images
-- [ ] Update the GitHub URL in the "How to Run" section
-- [ ] Replace `[Your Name]` with your actual name
-- [ ] Create a `requirements.txt` file with:
-  ```
-  pandas
-  numpy
-  scikit-learn
-  xgboost
-  matplotlib
-  seaborn
-  jupyterlab
-  ```
-- [ ] Test that all image paths work correctly
-- [ ] Push to GitHub and verify the README renders properly
-
-This README is now completely self-contained with all the information, results, and insights from your project! 🎉
