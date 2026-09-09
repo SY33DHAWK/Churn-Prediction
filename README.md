@@ -161,13 +161,13 @@ Based on the model's predictions and feature importance analysis:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/02-Churn-Prediction.git
-cd 02-Churn-Prediction
+https://github.com/SY33DHAWK/Churn-Prediction.git
+cd Churn-Prediction
 ```
 
 ### 2. Create and Activate Conda Environment
 ```bash
-conda create -n datascience python=3.12 -y
+conda create -n datascience python=3.13 -y
 conda activate datascience
 ```
 
