@@ -1,6 +1,5 @@
 Here's your complete, self-contained README.md file with all the project information and image references:
 
-```markdown
 #  Telco Customer Churn Prediction & Analysis
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
@@ -136,6 +135,7 @@ Based on the model's predictions and feature importance analysis:
 5. **Streaming Bundle Deals:** Customers with streaming services show higher churn - consider bundling discounts
 
 ## 📁 Project Structure
+
 
 ```
 02-Churn-Prediction/
