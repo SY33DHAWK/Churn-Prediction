@@ -32,13 +32,13 @@ In the telecommunications industry, acquiring a new customer is significantly mo
 
 ### Churn Distribution
 
-![Churn Distribution](images/F:/Churn-Prediction/output.png)
+![Churn Distribution](images/output.png)
 
 The dataset shows a class imbalance with **73.5% of customers staying** and **26.5% churning**. This imbalance is common in churn prediction scenarios and requires careful handling during model training.
 
 ### Top 10 Features Driving Customer Churn
 
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](images/output3.png)
 
 The most influential factors in predicting customer churn are:
 1. **Contract Type** (Two year & One year) - Customers on month-to-month contracts are most likely to churn
@@ -64,7 +64,7 @@ The most influential factors in predicting customer churn are:
 
 #### XGBoost Model (Champion)
 
-![XGBoost Confusion Matrix](images/xgboost_confusion_matrix.png)
+![XGBoost Confusion Matrix](images/output2.png)
 
 - **True Positives (Churners correctly identified):** 289
 - **False Negatives (Churners missed):** 85
@@ -72,7 +72,7 @@ The most influential factors in predicting customer churn are:
 
 #### Logistic Regression (Baseline)
 
-![Logistic Regression Confusion Matrix](images/logistic_regression_confusion_matrix.png)
+![Logistic Regression Confusion Matrix](images/output1.png)
 
 - **True Positives (Churners correctly identified):** 193
 - **False Negatives (Churners missed):** 181
